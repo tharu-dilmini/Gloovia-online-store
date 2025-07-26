@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="myaccount.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer2.css">
+</head>
+<body>
+
+    <div class="header">
+        <aside>
+            <a href="index.html"><img src="assets/logo.png" alt="logo" class="logo"></a>
+        </aside>
+    
+        <nav>
+            <div class="headerbar">
+                
+                <ul class="main-nav">
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#third">Search</a></li>
+                    <li><a href="category.html">Catlog</a></li>
+                    
+                    <li><a href="contactus.html"><img alt="call-icon" class="call-icon" src="assets/callUs.png"></a></li>
+                    <li><a href =""><img alt="addtocart-icon" class="addtocart-icon" src="assets/addtocart-icon.png"></a></li>
+                    <li><a href="indexxx2.html"><img alt="user-icon" class="user-icon" src="assets/user-icon.png"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="form-container">
+        <form id="orderForm" onsubmit="return validateForm()">
+            <h2>My Account Details</h2>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name"><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your Email"><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your Address"><br>
+
+            <label for="contact">Contact No:</label>
+            <input type="text" id="contact" name="contact" placeholder="Enter your Contact Number"><br>
+
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" placeholder="Enter your Age"><br>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="">Select Payment Method</option>
+                <option value="cash">Cash on Delivery</option>
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+            </select><br><br>
+
+            <a href="index.html"><button type="submit">Submit</button></a>
+            <p id="errorMessages" style="color: red;"></p>
+        </form>
+    </div>
+
+    <script src="myaccount.js"></script>
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2024 Gloovia. All Rights Reserved.</p>
+          <nav>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+
+</body>
+</html>

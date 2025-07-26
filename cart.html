@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        body{
+            background-color: rgb(169, 169, 169);
+        
+        }
+        h2{
+            text-align: center;
+            padding: 20px 0;
+            background-color: aliceblue;
+            color: midnightblue;
+        }
+    </style>
+    <link rel="stylesheet" href="stylecart.css"> 
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer2.css">
+
+</head>
+<body>
+    <div class="header">
+        <aside>
+            <a href="index.html"><img src="assets/logo.png" alt="logo" class="logo"></a>
+        </aside>
+    
+        <nav>
+            <div class="headerbar">
+                
+                <ul class="main-nav">
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#third">Search</a></li>
+                    <li><a href="category.html">Catlog</a></li>
+                    
+                    <li><a href="contactus.html"><img alt="call-icon" class="call-icon" src="assets/callUs.png"></a></li>
+                    <li><a href ="products.html"><img alt="addtocart-icon" class="addtocart-icon" src="assets/addtocart-icon.png"></a></li>
+                    <li><a href="indexxx2.html"><img alt="user-icon" class="user-icon" src="assets/user-icon.png"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <h2>Your Shopping Cart</h2>
+    <div class="cart-container">
+        <table id="cartTable">
+            <thead>
+                <tr>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Product ID</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+
+        <div class="cart-summary">
+            <h3>Total Amount: <span id="cartTotal">$0.00</span></h3>
+            <button onclick="location.href='checkout.html'" id="checkoutButton">Proceed to Checkout</button>
+            <a href="checkout.html" class="checkout"></a>
+
+        </div>
+
+        <a href="products.html" class="back-button">Back to Products</a>
+    </div>
+    <div class="recommended-section">
+        <h2>You might like to fill it with</h2>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="14.jpg" class="slideshow-image" alt="Product 1">
+                <div class="text">Women Flat Sandals</div>
+            </div>
+
+            <div class="slide fade">
+                <img src="product2.jpg" class="slideshow-image" alt="Product 2">
+                <div class="text">Men Stylish T-Shirt</div>
+            </div>
+
+            <div class="slide fade">
+                <img src="product3.jpg" class="slideshow-image" alt="Product 3">
+                <div class="text">Blush Palette</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="cart1.js"></script>
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2024 Gloovia. All Rights Reserved.</p>
+          <nav>
+            <ul>
+              
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+</body>
+</html>

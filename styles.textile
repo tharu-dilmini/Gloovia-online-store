@@ -1,0 +1,431 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Revalia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Revalia&display=swap');
+
+.bannercard{
+    position: relative;
+    text-align: center;
+}
+
+.circle{
+    width: 500px; 
+    height: 500px; 
+    background: rgba(0, 0, 0, 0.46); 
+    box-shadow: 200px 200px 200px; 
+    border-radius: 9999px; 
+    filter: blur(200px);
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.bannercard img{
+    margin: auto;
+    width:100%;
+    height:720px;
+}
+
+.bannercard{
+    margin: auto;
+    width:100%;
+    height: 720px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bannertext{
+    position: absolute;
+    line-height: 20px;
+    top: 40%;
+    left: 20%;
+}
+
+.bannertext h4{
+    color: white; 
+    font-size: 96px; 
+    font-family: Inria Sans; 
+    font-weight: 700; 
+    letter-spacing: 2.88px;
+    margin-bottom: 0px;
+}
+
+.bannertext p{
+    color: white; 
+    font-size: 60px; 
+    font-family: Inria Sans; 
+    font-weight: 700; 
+    letter-spacing: 2.88px;
+}
+
+.story{
+    position: relative;
+    text-align: center;
+    line-height: 250px;
+}
+
+.line{
+    width: 375px; 
+    height: 0px;
+    left: 100px; 
+    top: 125px;
+    position: absolute;
+    border: 2px black solid;
+}
+
+.story p{
+    color: black; 
+    font-size: 36px; 
+    font-family: Aboreto; 
+    font-weight: 400; 
+    letter-spacing: 1.08px; 
+    word-wrap: break-word;
+}
+
+.line1{
+    width: 350px; 
+    height: 0px;
+    right: 100px; 
+    top: 125px;
+    position: absolute;
+    border: 2px black solid;
+}
+
+.aboutstory{
+    position: relative;
+    left: 150px;
+}
+
+.aboutstory img{
+    margin: auto;
+    width: 384px; 
+    height: 454px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50); 
+    border-radius: 30px;
+}
+
+.aboutstory h1{
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+    left: 417px; 
+    top: -20px;
+}
+
+.aboutstory h2{
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+    left: 417px; 
+    top: 80px;
+}
+
+.aboutstory h3{
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+    left: 417px; 
+    top: 210px;
+}
+
+.aboutstory h4{
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+    left: 417px; 
+    top: 310px;
+}
+
+.Text{
+    left: 39px; 
+    top: 169px; 
+    position: absolute;
+}
+
+.Text span{
+    color: #52E2FF; 
+    font-size: 64px; 
+    font-family: Revalia; 
+    font-weight: 400; 
+    letter-spacing: 1.92px; 
+    word-wrap: break-word;
+}
+
+.Text span1{
+    color: #A9FF52; 
+    font-size: 64px; 
+    font-family: Revalia; 
+    font-weight: 400; 
+    letter-spacing: 1.92px; 
+    word-wrap: break-word;
+}
+
+.Text span2{
+    color: #52E2FF; 
+    font-size: 64px; 
+    font-family: Revalia; 
+    font-weight: 400; 
+    letter-spacing: 1.92px; 
+    word-wrap: break-word;
+}
+
+.textbox{
+    width: 1216px; 
+    height: 402px; 
+    left: 150px; 
+    top: 150px; 
+    position: relative; 
+    background: rgba(216.74, 216.74, 216.74, 0.48);
+}
+
+.text1{
+    left: 208px; 
+    top: 50px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Aboreto; 
+    font-weight: 400; 
+    letter-spacing: 1.08px; 
+    word-wrap: break-word;
+}
+
+.text2{
+    left: 844px; 
+    top: 50px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Aboreto; 
+    font-weight: 400; 
+    letter-spacing: 1.08px; 
+    word-wrap: break-word;
+}
+
+.horizontal{
+    width: 300px; 
+    height: 0px; 
+    left: 608px; 
+    top: 50px; 
+    position: absolute; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 2px black solid;
+}
+
+.visiontext{
+    left: 15px; 
+    top: 140px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+}
+
+.missiontext{
+    left: 653px; 
+    top: 140px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+}
+
+.promise{
+    position: relative;
+    text-align: center;
+    top: 250px;
+}
+
+.line01{
+    width: 400px; 
+    height: 0px; 
+    left: 100px; 
+    top: 20px; 
+    position: absolute; 
+    border: 2px black solid;
+}
+
+
+.promise p{
+    
+    color: black; 
+    font-size: 36px; 
+    font-family: Aboreto; 
+    font-weight: 400; 
+    letter-spacing: 1.08px; 
+    word-wrap: break-word;
+}
+
+.line02{
+    width: 400px; 
+    height: 0px; 
+    right: 100px; 
+    top: 20px; 
+    position: absolute; 
+    border: 2px black solid;
+}
+
+.Gpromise{
+    position: relative;
+    align-content: right;
+    top: 350px;
+    left: 150px;
+}
+
+.Gpromise img{
+    margin: auto;
+    width: 547px; 
+    height: 500px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50); 
+    border-radius: 30px;
+}
+
+.rectangle1{
+    top: 50px;
+    left: 400px;
+    position: absolute;
+    text-align: center;
+    width: 765px; 
+    height: 60px; 
+    background: white; 
+    border-radius: 100px; 
+    border: 1px black solid;
+}
+
+.rectangle1 p{
+    left: 50px;
+    color: black; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    letter-spacing: 0.60px; 
+    word-wrap: break-word;
+    line-height: 3px;
+}
+
+.rectangle1 h1{
+    color: black; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    letter-spacing: 0.66px; 
+    word-wrap: break-word;
+}
+
+
+.rectangle2{
+    top: 110px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 765px; 
+    height: 60px; 
+    background: white; 
+    border-radius: 100px; 
+    border: 1px black solid;
+}
+
+.rectangle3{
+    top: 225px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 765px; 
+    height: 60px; 
+    background: white; 
+    border-radius: 100px; 
+    border: 1px black solid;
+}
+
+.rectangle4{
+    top: 340px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 765px; 
+    height: 60px; 
+    background: white; 
+    border-radius: 100px; 
+    border: 1px black solid;
+}
+
+.sl{
+    position: relative;
+    width: 1216px; 
+    height: 400px; 
+    left: 150px; 
+    top: 475px; 
+    background: rgba(216.74, 216.74, 216.74, 0.48);
+    align-content: center;
+}
+
+.sl img{
+    left: 100px;
+    margin: auto;
+    width: 375px; 
+    height: 375px;
+}
+
+.textstyle{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+
+.textstyle p{
+    color: black; 
+    font-size: 48px; 
+    font-family: Inria Sans; 
+    font-weight: 700; 
+    letter-spacing: 1.44px; 
+    word-wrap: break-word;
+}
+
+.textstyle h1{
+    color: black; 
+    font-size: 48px; 
+    font-family: Inria Sans; 
+    font-weight: 700; 
+    letter-spacing: 1.44px; 
+    word-wrap: break-word;
+    line-height: 5px;
+}
+
+
+@media screen and (min-width: 780px){
+    .bannercard{
+        display: flex;
+    }
+}
+ 
+

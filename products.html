@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        body{
+            background-color: rgb(157, 15, 114);
+        
+        }
+        h2{
+            text-align: center;
+            padding: 1px 0;
+            background-color: aliceblue;
+            color: midnightblue;
+            margin-top: 5px; 
+            margin-bottom: 0px;
+        }
+    </style>
+    <link rel="stylesheet" href="stylecart.css"> 
+    <link rel="stylesheet" href="header.css">
+  
+   
+
+</head>
+<body>
+    <div class="header">
+        <aside>
+            <a href="index.html"><img src="assets/logo.png" alt="logo" class="logo"></a>
+        </aside>
+    
+        <nav>
+            <div class="headerbar">
+                
+                <ul class="main-nav">
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#third">Search</a></li>
+                    <li><a href="category.html">Catlog</a></li>
+                    
+                    <li><a href="contactus.html"><img alt="call-icon" class="call-icon" src="assets/callUs.png"></a></li>
+                    <li><a href ="products.html"><img alt="addtocart-icon" class="addtocart-icon" src="assets/addtocart-icon.png"></a></li>
+                    <li><a href="indexxx2.html"><img alt="user-icon" class="user-icon" src="assets/user-icon.png"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <h2>My Products</h2>
+        <div class="product-list">
+        
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Front Floral Jacquard Dress</h3>
+            <p>WYWH Square Neckline Puff Sleeve Dress With Bow Decor</p>
+            <p>Colour - Pink</p>
+            <p>Price: 9990</p>
+            <button onclick="addToCart('p001', 'Product 1Front Floral Jacquard Dress', 9990, 'product1.jpg')">Add to Cart</button>
+            
+        </div>
+
+        
+        
+    </div>
+    </div>
+    
+
+    <div class="footer-buttons">
+        <button onclick="location.href='category.html'" id="view">Back</button>
+  
+
+        <button onclick="location.href='cart.html'" id="view">View Cart</button>
+
+    </div>
+    
+    
+    <script src="cart.js"></script>
+
+   
+</body>
+</html>
